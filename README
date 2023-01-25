@@ -1,0 +1,32 @@
+# This is an api,
+
+# THE api has to fetch data from the redis. 
+# if the data is not present in redis 
+# then it has to go get the data from the mongo db.
+# we have to create an ui in front end.
+# the data should fetch from cache or db and send it to the ui.
+# /////////////////////////////////////////////////////////////////
+# -----------------------------------------------------------------
+features:
+      - when user enters any details it should go save in the database.
+      - when user wants any record. every record is assocoated with an id. with that id we can retrive the record.
+      - when user wants to delete a record, same id as the record. delete will happen.
+      - first time when the user retrive the record. it will retrive the record from the database. and store it in the cache.
+      - next time when the user retrive the record. it will see if the record is there in the cache. if yes it will take the record from cache
+
+      - create : create a new record in the database.
+      - update : update the record in the database.
+      - delete : delete the record in the database
+      - deleteAll : delete all records in the database
+      - get : get the record in the database.
+
+steps:
+     first :  create a folder structure.
+     src : will have the following
+     db: the database
+     
+
+
+
+
+
